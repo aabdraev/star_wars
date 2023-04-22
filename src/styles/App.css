@@ -1,0 +1,34 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(#ffffff70, #ffffff30), url("../images/background.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+form {
+  background-color: #ffffff90;
+  padding: 30px 60px;
+  border-radius: 10px;
+}
+
+h2 {
+  text-align: center;
+  color: #6d1590;
+}
+
+button {
+  padding: 10px;
+  margin: 15px 0px;
+  width: 100%;
+  height: 50px;
+  background-color: #6d1590;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+}
